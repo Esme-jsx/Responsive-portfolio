@@ -87,8 +87,3 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 415px) {
-  img {
-    display: none;
-  }
-}
