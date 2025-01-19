@@ -143,6 +143,25 @@ p {
   text-decoration: underline;
 }
 
+.about-section {
+   padding: 110px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 50px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 22.5px;
+
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 60px;
@@ -170,4 +189,9 @@ p {
     padding: 0;
     text-align: center;
   }
+
+  .about-section {
+  text-align: center;
+  padding: 0;
+}
 }
