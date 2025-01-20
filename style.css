@@ -9,7 +9,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin-top: 5px;
   font-family: var(--default-font-family);
 }
 
@@ -175,6 +175,40 @@ p {
   margin: 22.5px;
 }
 
+.logo {
+  max-width: 25px;
+}
+
+nav {
+  padding: 20px 0px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+  color: var(--primary-color);
+}
+
+nav a:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 60px;
@@ -194,6 +228,10 @@ p {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
 
