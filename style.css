@@ -201,12 +201,41 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover, nav li.active a {
+nav a:hover,
+nav li.active a {
   color: var(--primary-color);
 }
 
 nav a:hover {
   cursor: pointer;
+}
+
+footer .email-footer {
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+}
+
+footer .email-footer:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 10px;
+  padding: 10px;
+  cursor: pointer;
+  
+}
+
+footer .social-links {
+  margin: 15px 0;
+}
+
+footer .contact-box {
+  margin: 85px 0;
+  background: var(--secondary-color);
+  border-radius: 15px;
+  padding: 40px 40px 25px 40px;
 }
 
 @media (max-width: 576px) {
@@ -234,6 +263,7 @@ nav a:hover {
     font-size: 14px;
   }
 }
+
 
 @media (max-width: 900px) {
   .project-description {
